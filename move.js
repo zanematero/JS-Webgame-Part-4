@@ -6,7 +6,15 @@ function move(element) {
         element.style.bottom = bottom + 'px'
     }
 
-    return {
-        to: moveToCoordinates
+    function moveWithArrowKeys(left, bottom){
+       
     }
+
+    return {
+        to: moveToCoordinates,
+        withArrowKeys: moveWithArrowKeys
+    }        
 }
+
+
+// Can't yet figure out how to move the code from index.js to the moveWithArrowKeys function without breaking everything
